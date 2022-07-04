@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3379f14e-0e5a-43aa-b35a-4c99d4b7388e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/water/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/water/model/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/water/MainTest.java" afterDir="false" />
+    <list default="true" id="3379f14e-0e5a-43aa-b35a-4c99d4b7388e" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/water/container/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/water/container/Container1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/water/container/Container2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/water/container/Container3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/water/util/UtilityMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/water/container/Container1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/water/container/Container2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/water/container/Container3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/water/model/Container.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/water/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/water/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,7 +39,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BRjrzb98SNNkBNjioJIB3084iO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,13 +50,92 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="MainTest.shouldCreateNewContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.water" />
+      <recent name="com.water.containertest" />
+      <recent name="com.water.container" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.water" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MainTest">
+    <configuration name="Container1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seriously-good-software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.water.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.water.container" />
+      <option name="MAIN_CLASS_NAME" value="com.water.container.Container1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Container1Test.shouldConnectContainers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seriously-good-software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.water.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.water.container" />
+      <option name="MAIN_CLASS_NAME" value="com.water.container.Container1Test" />
+      <option name="METHOD_NAME" value="shouldConnectContainers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Container1Test.shouldCreateNewContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seriously-good-software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.water.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.water.container" />
+      <option name="MAIN_CLASS_NAME" value="com.water.container.Container1Test" />
+      <option name="METHOD_NAME" value="shouldCreateNewContainer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Container2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seriously-good-software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.water.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.water.container" />
+      <option name="MAIN_CLASS_NAME" value="com.water.container.Container2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seriously-good-software" />
       <extension name="coverage">
         <pattern>
@@ -58,15 +145,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.water" />
       <option name="MAIN_CLASS_NAME" value="com.water.MainTest" />
-      <option name="METHOD_NAME" value="shouldCreateNewContainer" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.shouldCreateNewContainer" />
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.Container1Test" />
+        <item itemvalue="JUnit.Container2Test" />
+        <item itemvalue="JUnit.Container1Test.shouldConnectContainers" />
+        <item itemvalue="JUnit.Container1Test.shouldCreateNewContainer" />
       </list>
     </recent_temporary>
   </component>
@@ -79,6 +169,14 @@
       <option name="presentableId" value="Default" />
       <updated>1656875995415</updated>
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1656876545543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656876545543</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,5 +189,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>

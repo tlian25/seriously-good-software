@@ -1,14 +1,16 @@
 package com.water;
 
-import com.water.model.Container;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import com.water.container.Container1Test;
+import com.water.container.Container2Test;
+import com.water.container.Container3Test;
 
+
+import org.junit.platform.suite.api.IncludeTags;
+import org.junit.platform.suite.api.SelectPackages;
+import org.junit.platform.suite.api.Suite;
+
+
+@SelectPackages({"com.water.container"})
+@Suite
 public class MainTest {
-
-    @Test
-    void shouldCreateNewContainer() {
-        Container container = new Container();
-        Assertions.assertEquals(0, container.getAmount());
-    }
 }
