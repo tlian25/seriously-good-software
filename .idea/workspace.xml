@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3379f14e-0e5a-43aa-b35a-4c99d4b7388e" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/water/container/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/water/container/Container1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/water/container/Container2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/water/container/Container3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/water/util/UtilityMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/water/container/Container1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/water/container/Container2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/water/container/Container3Test.java" afterDir="false" />
+    <list default="true" id="3379f14e-0e5a-43aa-b35a-4c99d4b7388e" name="Changes" comment="power grid">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/powergrid/Appliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/powergrid/Grid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/water/container/ContainerRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/powergrid/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/water/model/Container.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/water/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/water/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/water/container/Container3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/water/container/Container3Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +48,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,7 +66,7 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest">
+  <component name="RunManager" selected="JUnit.MainTest (1)">
     <configuration name="Container1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seriously-good-software" />
       <extension name="coverage">
@@ -104,22 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Container1Test.shouldCreateNewContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seriously-good-software" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.water.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.water.container" />
-      <option name="MAIN_CLASS_NAME" value="com.water.container.Container1Test" />
-      <option name="METHOD_NAME" value="shouldCreateNewContainer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Container2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seriously-good-software" />
       <extension name="coverage">
@@ -130,6 +108,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.water.container" />
       <option name="MAIN_CLASS_NAME" value="com.water.container.Container2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seriously-good-software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.powergrid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.powergrid" />
+      <option name="MAIN_CLASS_NAME" value="com.powergrid.MainTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest (1)" />
         <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.Container1Test" />
         <item itemvalue="JUnit.Container2Test" />
         <item itemvalue="JUnit.Container1Test.shouldConnectContainers" />
-        <item itemvalue="JUnit.Container1Test.shouldCreateNewContainer" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656876545543</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Container 2 and 3">
+      <created>1656947513178</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656947513178</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +192,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="Container 2 and 3" />
+    <MESSAGE value="power grid" />
+    <option name="LAST_COMMIT_MESSAGE" value="power grid" />
   </component>
 </project>

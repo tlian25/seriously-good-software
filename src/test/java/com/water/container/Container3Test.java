@@ -45,9 +45,10 @@ public class Container3Test {
         }
 
         Container3 container3 = new Container3();
+        container3.addWater(100);
         container.connectTo(container3);
         for (Container3 c: List.of(container, container2, container3)) {
-            Assertions.assertEquals(100.0/3, c.getAmount());
+            Assertions.assertEquals(200.0/3, c.getAmount());
             Assertions.assertEquals(3, c.getGroupSize());
         }
 
