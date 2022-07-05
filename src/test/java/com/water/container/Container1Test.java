@@ -58,7 +58,17 @@ public class Container1Test {
     }
 
 
+    @Test
+    @DisplayName("Test remove water")
+    void shouldThrowErrorRemoveWater() {
+        container.addWater(100);
 
+        Container1 container2 = new Container1();
+        container.connectTo(container2);
 
+        Assertions.assertThrows(IllegalArgumentException.class, () -> container2.addWater(-120));
+
+        Assertions.assertThrows(AssertionError.class, () -> container.addWater(Double.NaN));
+    }
 
 }

@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3379f14e-0e5a-43aa-b35a-4c99d4b7388e" name="Changes" comment="power grid">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/powergrid/Appliance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/powergrid/Grid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/water/container/ContainerRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/powergrid/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gcd/GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gcd/GCDTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/water/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/water/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/water/container/Container3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/water/container/Container3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/water/container/Container1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/water/container/Container1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/water/container/Container1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/water/container/Container1Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -66,49 +64,65 @@
       <command value="mvn compile" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest (1)">
-    <configuration name="Container1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GCDTest">
+    <configuration name="com.gcd.GCD" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gcd.GCD" />
       <module name="seriously-good-software" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.water.*" />
+          <option name="PATTERN" value="com.gcd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.water.container" />
-      <option name="MAIN_CLASS_NAME" value="com.water.container.Container1Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GCDTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="seriously-good-software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gcd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gcd" />
+      <option name="MAIN_CLASS_NAME" value="com.gcd.GCDTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Container1Test.shouldConnectContainers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GCDTest.iterations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seriously-good-software" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.water.*" />
+          <option name="PATTERN" value="com.gcd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.water.container" />
-      <option name="MAIN_CLASS_NAME" value="com.water.container.Container1Test" />
-      <option name="METHOD_NAME" value="shouldConnectContainers" />
+      <option name="PACKAGE_NAME" value="com.gcd" />
+      <option name="MAIN_CLASS_NAME" value="com.gcd.GCDTest" />
+      <option name="METHOD_NAME" value="iterations" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Container2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GCDTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seriously-good-software" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.water.*" />
+          <option name="PATTERN" value="com.gcd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.water.container" />
-      <option name="MAIN_CLASS_NAME" value="com.water.container.Container2Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.gcd" />
+      <option name="MAIN_CLASS_NAME" value="com.gcd.GCDTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,13 +157,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.com.gcd.GCD" />
+      <item itemvalue="JUnit.GCDTest" />
+      <item itemvalue="JUnit.GCDTest.iterations" />
+      <item itemvalue="JUnit.GCDTest.test4" />
+      <item itemvalue="JUnit.MainTest" />
+      <item itemvalue="JUnit.MainTest (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest (1)" />
+        <item itemvalue="JUnit.GCDTest.iterations" />
+        <item itemvalue="JUnit.GCDTest.test4" />
         <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.Container1Test" />
-        <item itemvalue="JUnit.Container2Test" />
-        <item itemvalue="JUnit.Container1Test.shouldConnectContainers" />
+        <item itemvalue="JUnit.MainTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656947513178</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="power grid">
+      <created>1656953715985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656953715985</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,5 +223,10 @@
     <MESSAGE value="Container 2 and 3" />
     <MESSAGE value="power grid" />
     <option name="LAST_COMMIT_MESSAGE" value="power grid" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/seriously_good_software$GCD.ic" NAME="GCD Coverage Results" MODIFIED="1657049214349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gcd.*</FILTER>
+    </SUITE>
   </component>
 </project>
